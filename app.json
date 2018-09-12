@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/index/index",
+    "pages/category/category",
+    "pages/cart/cart",
+    "pages/mine/mine",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0CB9FF",
+    "navigationBarTitleText": "小电商",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "selectedColor": "#0CB9FF",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "首页",
+        "iconPath": "pages/res/tabimg/tabbar_index.png",
+        "selectedIconPath": "pages/res/tabimg/tabbar_index_sel.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "pages/res/tabimg/tabbar_classify.png",
+        "selectedIconPath": "pages/res/tabimg/tabbar_classify_sel.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "pages/res/tabimg/tabbar_cart.png",
+        "selectedIconPath": "pages/res/tabimg/tabbar_cart_sel.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我",
+        "iconPath": "pages/res/tabimg/tabbar_my.png",
+        "selectedIconPath": "pages/res/tabimg/tabbar_my_sel.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+<view class='container' >
+    <icon class='backIcon' >
+    </icon>
+    <text title>
+    {{title}}
+    </text>
+</view>

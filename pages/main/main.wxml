@@ -1,3 +1,5 @@
+<include src="../header/header.wxml" />
+
 <view>
   我的
 </view>

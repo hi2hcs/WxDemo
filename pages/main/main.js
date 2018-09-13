@@ -1,4 +1,4 @@
-
+// var backUtil= require('../../utils/back.js');
 
 Page({
 
@@ -6,7 +6,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    title:"首页"
+    title:"首页",
+    hideback:true
   },
 
   /**
@@ -16,6 +17,7 @@ Page({
     wx.showTabBarRedDot({
       index: 2,
     })
+    // backUtil.back();
   },
 
   /**
@@ -65,5 +67,11 @@ Page({
    */
   onShareAppMessage: function () {
     
+  },
+  // back: backUtil.back()
+  back: function () {
+    wx.showToast({
+      title: 'main',
+    })
   }
 })

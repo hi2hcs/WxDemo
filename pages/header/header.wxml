@@ -1,9 +1,9 @@
 <view class='container'>
-  <view class='backcontainer'>
-   <image class='backicon' src='../res/image/back.png'></image>
+  <view class='backcontainer' hidden='{{hideback}}'>
+    <image class='backicon' bindtap='back' src='../res/image/back.png'></image>
   </view>
   <view class='titlecontainer'>
     {{title}}
   </view>
-  <view class='backcontainer'></view>
+  <view class='backcontainer' hidden='{{hideback}}'></view>
 </view>

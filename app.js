@@ -27,5 +27,10 @@ App({
    */
   onError: function (msg) {
     
+  },
+  back:function(){
+    wx.showToast({
+      title: 'appjs',
+    })
   }
 })

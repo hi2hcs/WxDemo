@@ -1,20 +1,25 @@
 .container {
-  background: red;
-  width: 100%;
-  height: 70px;
+  height: 108rpx;
+  margin-top: 44rpx;
   display: flex;
-  flex-direction: row;
+  z-index: 10;
+}
+
+.backcontainer {
+  margin-top: 10rpx;
+  width: 88rpx;
+  height: 88rpx;
+  line-height: 88rpx;
 }
 
 .backicon {
-  z-index: 5;
-  background: gray;
-  width: 50px;
-  height: 50px;
+  width: 100%;
+  height: 100%;
 }
 
-.title {
+.titlecontainer {
+  flex: 1;
   text-align: center;
-  background: green;
-  color: blue;
+  line-height: 108rpx;
+  color: white;
 }

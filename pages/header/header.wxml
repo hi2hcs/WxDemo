@@ -1,8 +1,9 @@
 <view class='container'>
-  <!-- <image class='backicon' src="../res/tabimg/tabbar_index_sel.png"></image> -->
-
-    <image class='backicon' src="../res/tabimg/tabbar_index.png"></image>
-  <text class='title'>
+  <view class='backcontainer'>
+   <image class='backicon' src='../res/image/back.png'></image>
+  </view>
+  <view class='titlecontainer'>
     {{title}}
-    </text>
+  </view>
+  <view class='backcontainer'></view>
 </view>

@@ -11,7 +11,7 @@
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#0CB9FF",
     "navigationBarTitleText": "小电商",
-    "navigationBarTextStyle": "black",
+    "navigationBarTextStyle": "white",
     "navigationStyle": "custom"
   },
   "tabBar": {

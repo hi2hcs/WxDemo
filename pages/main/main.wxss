@@ -12,6 +12,6 @@ page {
 
 .eastweatbg {
   width: 100%;
-  height: 100%;
+  height: 562rpx;
   position: absolute;
 }

@@ -1,5 +1,5 @@
 <view class='maincontainer' >
   <include src="../header/header.wxml" />
-   <image class='eastweatbg' src='../res/image/app_welcome_1.png'></image> 
+  <image class='eastweatbg' src='../res/image/my_top_bg_high.png'></image>
   <!-- <view class='eastweatbg' style="background-image: url('../res/image/register_bg.svg')"></view> -->
 </view>

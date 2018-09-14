@@ -1,3 +1,69 @@
-<view>
-  我
+<view class='container'>
+  <!-- <include src="../header/header.wxml" /> -->
+  <image class='eastweatbg' src='../res/image/my_top_bg_high.png'></image>
+  <view class='userinfo'>
+    <image class='avtar' src='{{avtar}}'></image>
+    <image class='vip' src='../res/image/my_icon_vip.png'></image>
+    <text class='name'>{{name}}</text>
+    <text class='level'>{{level}}</text>
+    <view class='space'></view>
+    <image class='qrcode' src='../res/image/my_icon_qrcode.png'></image>
+
+  </view>
+  <view class='cardinfo'>
+    <view class='cardcontainer' bindtap='clickShopcard'>
+      <text class='shopcardnum'>{{shopcardnum}}</text>
+      <text class='shopcardname'>购物卡</text>
+    </view>
+    <view class='line'>
+    </view>
+    <view class='cardcontainer' bindtap='clickCoupuns'>
+      <text class='shopcardnum'>{{couponsnum}}</text>
+      <text class='shopcardname'>优惠券</text>
+    </view>
+    <view class='line'>
+    </view>
+    <view class='cardcontainer' bindtap='clickPoints'>
+      <text class='shopcardnum'>{{pointsnum}}</text>
+      <text class='shopcardname'>积分</text>
+    </view>
+  </view>
+  <view class='order_container'>
+    <view class='all_order_f'>
+      <view class='all_order'>
+        <text>我的订单</text>
+        <view class='space'></view>
+        <text>查看全部订单</text>
+        <image class='arrow' src='../res/image/arrow.png'></image>
+      </view>
+    </view>
+    <view class='order_info'>
+      <view class='order_item_container'>
+        <image class='up_icon' src='../res/image/my_icon_payment.png'></image>
+        <text class='down_text'>待付款</text>
+      </view>
+      <view class='order_item_container'>
+        <image class='up_icon' src='../res/image/my_icon_shipment.png'></image>
+        <text class='down_text'>待配送</text>
+      </view>
+      <view class='order_item_container'>
+        <image class='up_icon' src='../res/image/my_icon_receive.png'></image>
+        <text class='down_text'>待收货</text>
+      </view>
+      <view class='order_item_container'>
+        <image class='up_icon' src='../res/image/my_icon_ziti.png'></image>
+        <text class='down_text'>待自提</text>
+      </view>
+
+    </view>
+  </view>
+  <view class='itemscontainer'>
+    <view class='items' wx:for-items="{{items}}" wx:key="{{index}}">
+      <view class='item_content' bindtap='clickitem' data-id="{{item.id}}">
+        <text class='laberstr'>{{item.name}}</text>
+        <view class='space'></view>
+        <image class='arrow' src='../res/image/arrow.png'></image>
+      </view>
+    </view>
+  </view>
 </view>

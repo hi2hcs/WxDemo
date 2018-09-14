@@ -159,6 +159,11 @@ page {
   border-width: 1px;
 }
 
+.check_all_order {
+  color: #bfbfbf;
+  font-size: 15px;
+}
+
 .order_info {
   display: flex;
   flex-direction: row;
@@ -219,5 +224,5 @@ page {
 
 .item_content text {
   color: #333;
-   font-size: 16px;
+  font-size: 16px;
 }

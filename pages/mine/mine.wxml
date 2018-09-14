@@ -33,7 +33,7 @@
       <view class='all_order'>
         <text>我的订单</text>
         <view class='space'></view>
-        <text>查看全部订单</text>
+        <text class='check_all_order'>查看全部订单</text>
         <image class='arrow' src='../res/image/arrow.png'></image>
       </view>
     </view>
